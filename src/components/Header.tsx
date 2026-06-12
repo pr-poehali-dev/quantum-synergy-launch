@@ -39,9 +39,10 @@ export function Header() {
         <ul className="hidden md:flex items-center gap-10 text-sm tracking-wide">
           {[
             { label: "Главная", href: "#hero" },
-            { label: "Философия", href: "#about" },
+            { label: "О нас", href: "#about" },
             { label: "Проекты", href: "#projects" },
             { label: "Услуги", href: "#services" },
+            { label: "Калькулятор", href: "#calculator" },
             { label: "Вопросы", href: "#faq" },
           ].map((item) => (
             <li key={item.label}>
@@ -96,9 +97,10 @@ export function Header() {
           <ul className="flex flex-col gap-6 mb-8">
             {[
               { label: "Главная", href: "#hero" },
-              { label: "Философия", href: "#about" },
+              { label: "О нас", href: "#about" },
               { label: "Проекты", href: "#projects" },
               { label: "Услуги", href: "#services" },
+              { label: "Калькулятор", href: "#calculator" },
               { label: "Вопросы", href: "#faq" },
             ].map((item) => (
               <li key={item.label}>
